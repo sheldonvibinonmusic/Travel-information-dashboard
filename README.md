@@ -2,6 +2,8 @@
 
 A Python terminal application that combines multiple public APIs to display useful travel information about any country, including 🌍 country details, 🌦 weather, 💰 currency, and 🕒 timezone.
 
+Before running the project, replace "YOUR_API_KEY" with your own OpenWeather, REST Countries, and TIME API keys.
+
 ## ✨ Features
 - 🌍 Official country name
 - 🏛 Capital city
