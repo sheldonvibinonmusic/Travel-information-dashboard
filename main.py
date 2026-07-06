@@ -1,6 +1,19 @@
 import requests
 import json
 
+print("""
+      
+      
+Travel Information Dashboard
+
+Displays country information, weather details,
+and timezone using multiple public APIs.
+
+Author: Sheldon Pais
+      
+
+""")
+
 headers={'Authorization':'rc_live_ca7022961e694650af36535d5ff4f07f'}
 
 #COUNTRY INFORMATION
