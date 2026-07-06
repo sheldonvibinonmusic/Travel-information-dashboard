@@ -3,7 +3,6 @@ import json
 
 print("""
       
-      
 Travel Information Dashboard
 
 Displays country information, weather details,
@@ -14,7 +13,7 @@ Author: Sheldon Pais
 
 """)
 
-headers={'Authorization':'rc_live_ca7022961e694650af36535d5ff4f07f'}
+headers={'Authorization':"YOUR_API_KEY"}
 
 #COUNTRY INFORMATION
 country_url="https://api.restcountries.com/countries/v5"
@@ -61,7 +60,7 @@ except requests.RequestException:
 
 #Weather INFORAMTION
 weather_url = "https://api.openweathermap.org/data/2.5/weather"
-API_KEY="a8fe63ce7dd2b1900e8c6d10d577c32b"
+API_KEY= "YOUR_API_KEY"
 
 weather_params={
    "q":capital,
